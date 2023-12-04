@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Quantico', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.containerPrincipal {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagemProjeto {
+    width: 30vw;
+}
+
+.sistemas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    background-color: #8E12DF;
+    width: 250px;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-size: 1.2em;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 10px;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+}
